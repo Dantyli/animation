@@ -1,0 +1,69 @@
+body,html,ul,li,p,div,h2,h3{
+   margin: 0;
+   padding: 0;
+   color: #333;
+   text-align: center;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background: rgb(243,243,243);
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    background: #fff;
+    height:50px;
+    line-height: 50px;
+}
+.slide-right-enter-active {
+	transition:.3s ease-in-out;
+	position: absolute;
+	top: 0;
+	width: 100%;
+ }
+ .slide-right-leave-active{
+	transition:.3s ease-in-out;
+	position: absolute;
+	top: 0;
+	width: 100%;
+ }
+ .slide-right-enter{
+   transform:translateX(100%);
+   width: 100%;
+   position: absolute;
+	top: 0;
+	width: 100%;
+ }
+ .slide-right-leave-to{
+    transform:translateX(-100%);
+   position:absolute;
+   top: 0;
+   width: 100%;
+ }
+ .slide-left-enter-active {
+	transition:.3s ease-in-out;
+	position: absolute;
+	top: 0;
+	width: 100%;
+ }
+ .slide-left-leave-active{
+	transition:.3s ease-in-out;
+	position: absolute;
+	top: 0;
+	width: 100%;
+ }
+ .slide-left-enter{
+   transform:translateX(-100%);
+   width: 100%;
+ }
+ .slide-left-leave-to{
+    transform:translateX(100%);
+   position:absolute;
+   top: 0;
+   width: 100%;
+ }
