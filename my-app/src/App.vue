@@ -18,7 +18,6 @@ export default {
       const toTarget=to.path.split('/').length;
       const fromTrget=from.path.split('/').length
       this.transitionName=toTarget<fromTrget?'slide-left':'slide-right'
-      console.log(this.transitionName)
     }
   }
 }
