@@ -2,7 +2,7 @@
    <div>
       <h3>热点新闻</h3>
       <div class="rolls-wrap">
-         <ul :style={top} :class="{trans:activeIndex}">
+         <ul :style="{transform:'translateY('+top+')'}" :class="{trans:activeIndex}">
             <li v-for="item in news">{{item}}</li>
          </ul>
       </div> 
@@ -12,6 +12,7 @@
    </div>
 </template>
 <script>
+//  transform操作不会改动布局重绘，提高性能
     export default{
         data(){
             return{

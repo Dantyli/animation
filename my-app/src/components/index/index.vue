@@ -5,6 +5,7 @@
           <router-link to="/demo/sticky"><li>顶部吸附效果</li></router-link>
           <router-link to="/demo/stick"><li>顶部吸附（带动画）</li></router-link>
           <router-link to="/demo/rolls"><li>新闻滚动</li></router-link>
+          <router-link to="/demo/swiper"><li>图片轮播</li></router-link>
       </ul>
    </div>
 </template>

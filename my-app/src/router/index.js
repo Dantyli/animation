@@ -4,6 +4,7 @@ import index from '../components/index'
 import stick from '../components/sticky/stick'
 import sticky from '../components/sticky/sticky'
 import rolls from '../components/rolls/rollNews'
+import swiper from '../components/swiper/swiper'
 Vue.use(Router)
 
 export default new Router({
@@ -27,6 +28,10 @@ export default new Router({
     {
       path:'/demo/rolls',
       component:rolls
-    }  
+    },
+    {
+      path:'/demo/swiper',
+      component:swiper
+    }    
   ]
 })
